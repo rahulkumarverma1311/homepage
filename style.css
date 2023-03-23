@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding-top: 20px;
+  padding-left: 50px;
+  color: white;
+  font-size: 27px;
+}
+.logo h1:hover {
+  color: aqua;
+}
+.main h1:hover {
+  color: aqua;
+}
+.main h2:hover {
+  color: aqua;
+}
+.links ul {
+  display: flex;
+  list-style: none;
+}
+.links ul li {
+  margin-right: 70px;
+  margin-top: 35px;
+  font-size: 22px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.check-div{
+  width: 20%;
+  margin-left: 38.5%;
+  margin-top: 13%;
+
+  
+}
+.main {
+ 
+  display: flex;
+  
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+.main h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 67px;
+  
+  
+  /* margin-top: 220px; */
+}
+.main h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 33px;
+  
+  
+}
+.links ul :hover {
+  color: aquamarine;
+}
+@media screen and (max-width: 600px) {
+  .links ul {
+    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+  }
+  .links ul:hover {
+    color: aqua;
+  }
+  .main h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 47px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.login-nav {
+  display: flex;
+  justify-content: center;
+}
+.login-nav h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 900;
+  margin-top: 11%;
+  font-style: initial;
+}
+.login-nav h1:hover {
+  color: aqua;
+}
+form {
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5%;
+}
+.form-login :left {
+  color: white;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+.form-input div {
+  color: white;
+}
+
+.email-input {
+  margin-left: 25px;
+}
+.email-lable {
+  color: white;
+}
+form button {
+  width: 30%;
+  margin-left: 71px;
+}
+.heading-div{
+  display: flex;
+  justify-content: center;
+}
+.heading-div h1{
+  color: white;
+  font-size: 47px;
+  margin-top: 11%;
+  font-weight: 900;
+  
+}
+.heading-div h1:hover{
+  color: aqua;
+}
+.about-main{
+
+  display: flex;
+  justify-content: center;
+}
+
+.about-des {
+  color: white;
+  width: 70%;
+  height: 20%;
+  margin-left: 18%;
+  font-size: 26px;
+  margin-top: 9px;
+  text-align: justify;
+}
+.about-des:hover{
+  color: aqua;
+}
+
+.footer-links ul{
+  display: flex;  
+  margin-left: 35%;
+  flex-direction: row;
+  list-style: none;   
+}
+.footer-links li{
+  color: white;
+  margin-top:40px ;
+  padding: 20px;
+  font-size: 22px;
+}
+.footer-links img{
+  margin-top: 4px;
+  
+  width: 20px;
+  height: 20px;
+}
+.footer-links a:hover{
+  color: aqua;
+}
